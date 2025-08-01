@@ -1,4 +1,4 @@
-# Useful Code Snippets for ClickWhale
+# Developers Documentation for ClickWhale
 
 This documentation provides a collection of useful code snippets for developers working with the [ClickWhale WordPress plugin](https://wordpress.org/plugins/clickwhale/).
 
@@ -51,6 +51,9 @@ add_action('clickwhale/link_page_link_clicked', function( $link, $link_id, $link
 The hook provides information about the clicked link, as well as the viewed link page, the link page ID and the user ID (if logged in).
 
 *This hook was added in ClickWhale v2.4.5*
+
+## Available API Routes
+tba
 
 ## Plugin Documentation
 More information about the plugin functionality can be found in the official [plugin documentation](https://clickwhale.pro/docs/).
