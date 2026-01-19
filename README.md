@@ -67,6 +67,8 @@ Authorization instructions:
 - in WP admin area create an Application Password for WP User
 - in request header use `Basic Authentication` authorization scheme.
 
+*Access is limited to Administrators by default and can be configured for other roles in the plugin settings (Access Level). Note: Only roles with "upload_files" capability can be granted access.*
+
 ## Available API Routes
 
 ### 1. Get a list of all ClickWhale links
